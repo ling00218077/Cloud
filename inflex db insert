@@ -1,0 +1,114 @@
+insert Project,project_ame="Project1",Target_Rls_date=1561947009000  effort=300,pod="leo",it_pm="kira",transfor_PM="kira",Story_ready=true,Country="HSAC",start_date=1546308609000,SIT_date=1550196609000,UAT_date=1551406209000,update_person="kira"
+------------------------------------------------------------------------------------------------------------------------------------------------
+insert Task,task_name="analyse",owner="P1",project_ame="Project1" effort=30,Detail="Task1 Test ",create_by="kira",create_date=1554084609000,pod="leo",status="start",priority="low",Remark="test",update_person="kira"
+
+insert Task,task_name="coding",owner="P2",project_ame="Project1" effort=200,Detail="Task2 Test",create_by="kira",create_date=1554084609000,pod="leo",status="pending",priority="hign",Remark="test",update_person="kira"
+
+insert Task,task_name="UT",owner="P3",project_ame="Project1" effort=70,Detail="Task3 test",create_by="kira",create_date=1554084909000,pod="leo",status="pending",priority="normal",Remark="test",update_person="kira"
+---------------------------------------------------------------------------------------------------
+insert TestCase,testcase_name="testcase1",project_ame="Project1",status="pending" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira";
+insert TestCase,testcase_name="testcase2",project_ame="Project1",status="start" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554555609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+
+insert TestCase,testcase_name="testcase3",project_ame="Project1",status="doing" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554456609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+
+insert TestCase,testcase_name="testcase4",project_ame="Project1",status="finished" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+---------------------------------------------------------------------------------------------------
+insert Issue,project_ame="Project1",testcase_name="testcase3",status="fixed" effort=30,pod="leo",HeadLine="Issue1",Detail="Detail test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",analyse="Issue1 test",Remark="test1",update_person="kira"
+
+insert Issue,project_ame="Project1",testcase_name="testcase3",status="analyse" effort=30,pod="leo",HeadLine="Issue2",Detail="Detai2 test",create_by="kira",create_date=1555294209000,pod="leo",owner="kira",priority="low",analyse="Issue2 test",Remark="test2",update_person="kira"
+
+insert Issue,project_ame="Project1",testcase_name="testcase3",status="coding" effort=30,pod="leo",HeadLine="Issue3",Detail="Detai3 test",create_by="kira",create_date=1554430209000,pod="leo",owner="kira",priority="low",analyse="Issue3 test",Remark="test3",update_person="kira"
+
+insert Issue,project_ame="Project1",testcase_name="testcase1",status="analyse" effort=30,pod="leo",HeadLine="Issue4",Detail="Detai4 test",create_by="kira",create_date=1556676609000,pod="leo",owner="kira",priority="low",analyse="Issue4 test",Remark="test4",update_person="kira"
+
+****************************************************************************************************************************************************
+
+insert Project,project_ame="Project2",Target_Rls_date=1556676609000  effort=30,pod="leo",it_pm="kira",transfor_PM="kira",Story_ready=true,Country="HSAC",start_date=1546308609000,SIT_date=1552615809000,UAT_date=1554084609000,update_person="kira"
+
+
+insert Task,task_name="analyse",owner="P1",project_ame="Project2" effort=30,Detail="Task1 Test ",create_by="kira",create_date=1554084609000,pod="leo",status="start",priority="low",Remark="test",update_person="kira"
+
+insert Task,task_name="coding",owner="P2",project_ame="Project2" effort=200,Detail="Task2 Test",create_by="kira",create_date=1554084609000,pod="leo",status="pending",priority="hign",Remark="test",update_person="kira"
+
+insert Task,task_name="UT",owner="P3",project_ame="Project2" effort=70,Detail="Task3 test",create_by="kira",create_date=1554084909000,pod="leo",status="pending",priority="normal",Remark="test",update_person="kira"
+---------------------------------------------------------------------------------------------------
+insert TestCase,testcase_name="testcase1",project_ame="Project2",status="pending" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+
+insert TestCase,testcase_name="testcase2",project_ame="Project2",status="start" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554555609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+
+insert TestCase,testcase_name="testcase3",project_ame="Project2",status="doing" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554456609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+
+insert TestCase,testcase_name="testcase4",project_ame="Project2",status="finished" effort=30,Detail="this is a test case which for test test test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",Remark="test",update_person="kira"
+---------------------------------------------------------------------------------------------------
+insert Issue,project_ame="Project2",testcase_name="testcase3",status="fixed" effort=30,pod="leo",HeadLine="Issue1",Detail="Detail test ",create_by="kira",create_date=1554084609000,pod="leo",owner="kira",priority="low",analyse="Issue1 test",Remark="test1",update_person="kira"
+
+insert Issue,project_ame="Project2",testcase_name="testcase3",status="analyse" effort=30,pod="leo",HeadLine="Issue2",Detail="Detai2 test",create_by="kira",create_date=1555294209000,pod="leo",owner="kira",priority="low",analyse="Issue2 test",Remark="test2",update_person="kira"
+
+insert Issue,project_ame="Project2",testcase_name="testcase3",status="coding" effort=30,pod="leo",HeadLine="Issue3",Detail="Detai3 test",create_by="kira",create_date=1554430209000,pod="leo",owner="kira",priority="low",analyse="Issue3 test",Remark="test3",update_person="kira"
+
+insert Issue,project_ame="Project2",testcase_name="testcase1",status="analyse" effort=30,pod="leo",HeadLine="Issue4",Detail="Detai4 test",create_by="kira",create_date=1556676609000,pod="leo",owner="kira",priority="low",analyse="Issue4 test",Remark="test4",update_person="kira"
+
+insert Project,project_ame="Project3",Target_Rls_date=1575166209000  effort=30,pod="leo",it_pm="kira",transfor_PM="kira",Story_ready=true,Country="HSAC",start_date=1554084609000,SIT_date=1557886209000,UAT_date=1564625409000,update_person="kira"
+
+
+create table PROJECT (
+project_name varchar(80),       ---TAG    COUNT()
+effort number,
+pod varchar(20),
+IT_PM varchar(20),
+transfor_PM varchar(20),
+Story_ready varchar(20),
+Country varchar(10),
+OB_REF varchar(20),
+start_date date,
+SIT_date date,    ------TAG   
+UAT_date date,
+Target_Rls_date date,
+Remark varchar(60000),
+update_person varchar(20)
+);
+
+create table Issue (
+project_name varchar(80),  ---TAG  
+testcase_name varchar(80),  ---TAG 
+effort number,    
+HeadLine varchar(80),
+Detail varchar(60000),
+create_by varchar(20),
+create_date date,
+pod varchar(20),
+owner varchar(20),
+status varchar(20),  ---tag
+priority varchar(20), 
+analyze varchar(60000),
+Remark varchar(60000)
+);
+
+create table testcase (
+testcase_name varchar(80),
+project_name varchar(80), -- tag where 
+effort number,
+Detail varchar(60000),
+create_by varchar(20),
+create_date date,
+pod varchar(20),
+owner varchar(20),
+status varchar(20), --- tag  count
+priority varchar(20),
+Remark varchar(60000),
+update_person varchar(20)
+);
+
+create table Task (
+task_name varchar(80),
+Detail varchar(60000),
+project_name varchar(80), -- tag
+create_by varchar(20),
+create_date date,
+pod varchar(20),
+owner varchar(20),
+status varchar(20),
+priority varchar(20),
+Remark varchar(60000),
+update_person varchar(20)
+);
